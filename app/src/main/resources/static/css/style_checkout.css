@@ -1,0 +1,129 @@
+/* Checkout Stylesheet */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+input[type=text], select {
+  width:100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.background{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 190px;
+}
+
+.discount{
+  color: #D3D3D3;
+  background-color: black;
+  text-align: center;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.checkout-container{
+  padding-bottom: 100px;
+}
+
+.btns{
+  padding: 10px;
+  font-weight: 24;
+  font-weight: bold;
+}
+
+button{
+  box-shadow: 3px 3px 0 0;
+}
+
+#pay{
+  float: left;
+}
+
+#back{
+  float: right;
+    padding: 10px;
+    font-weight: 24;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.btns #pay:hover{
+  background-color: blue;
+  color: #fff;
+}
+
+#back:hover{
+  background-color: red;
+  color: #fff;
+}
+
+.review{
+  text-align: center;
+  text-align: center;
+  color: #D3D3D3;
+  background-color: black;
+  padding: 30px;
+  border-radius: 15px;
+}
+
